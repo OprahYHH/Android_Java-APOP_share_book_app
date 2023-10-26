@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_background"
+    android:orientation="vertical"
+    tools:context=".UpdateBook">
+
+  <!-- Tool Bar -->
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/green_light"
+      android:elevation="10dp">
+    <!-- back page icon -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_arrow_left"
+        android:contentDescription="@string/imgMessageIcon"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+    <!-- page title -->
+    <TextView
+        android:id="@+id/txtToolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txtUpdateBookPage"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <!-- message icon -->
+    <ImageButton
+        android:id="@+id/btnMessageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_message_icon"
+        android:contentDescription="@string/imgMessageIcon"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <!-- the context of book 1 -->
+
+  <!-- the context of book 2 -->
+
+
+  <!-- the context of book 2 -->
+
+  <!-- the bottom menu bar -->
+
+
+  <!--  <androidx.core.widget.NestedScrollView-->
+  <!--      android:layout_width="match_parent"-->
+  <!--      android:layout_height="match_parent">-->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="553dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="46dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@color/nav_bg"
+        android:elevation="4dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:itemIconSize="18dp"
+        app:itemIconTint="@color/bright_blue"
+        app:itemTextColor="@color/bright_blue"
+        app:menu="@menu/bottom_menu" />
+  </RelativeLayout>
+
+
+  <!--  </androidx.core.widget.NestedScrollView>-->
+</LinearLayout>

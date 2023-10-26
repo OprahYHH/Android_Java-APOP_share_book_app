@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apopsharebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APOPShareBook">
+        <activity
+            android:name=".PrefPopup2"
+            android:exported="false"
+            android:theme="@style/myPrefPopupTheme"/>
+        <activity
+            android:name=".AdminMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCreateUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDeleteUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMsgUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUpdateUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUpdateUser2"
+            android:exported="false" />
+        <activity
+            android:name=".SearchOutput"
+            android:exported="false" />
+        <activity
+            android:name=".popup"
+            android:exported="false"
+            android:theme="@style/myPopupTheme" />
+        <activity
+            android:name=".PrefPopup"
+            android:exported="false"
+            android:theme="@style/myPrefPopupTheme" />
+        <activity
+            android:name=".MessageDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".BorrowBookDetails2"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePage"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBook2"
+            android:exported="false" />
+        <activity
+            android:name=".BorrowBook2"
+            android:exported="false" />
+        <activity
+            android:name=".AddBookTracker"
+            android:exported="false" />
+        <activity
+            android:name=".CurrentLoan"
+            android:exported="false" />
+        <activity
+            android:name=".RequestHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".EditAccount"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".AccountInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingTracker"
+            android:exported="false" />
+        <activity
+            android:name=".AddBook"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">APOP Shared Book</string>
+    <!--Welcome and Login Page -->
+    <string name="imgDesc">img 1</string>
+    <string name="login">LOGIN</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="emailHint">Enter email</string>
+    <string name="passHint">Enter password</string>
+    <string name="WelcomeBack">WELCOME\nBACK</string>
+    <string name="CrateAccount">CREATE\nACCOUNT</string>
+    <string name="register">REGISTER</string>
+
+    <!-- Main Menu -->
+    <string name="imgUserProfile">The photos for user profile</string>
+    <string name="txtUserName">amiewill428</string>
+    <string name="txtSearch">Search a book name</string>
+    <string name="imgAddBook">The icon of add book</string>
+    <string name="imgUpdateBook">The icon of update book</string>
+    <string name="imgBorrowBook">The icon of borrow book</string>
+    <string name="imgReadingTracker">The icon of reading tracker</string>
+    <string name="imgMessageIcon">The icon of message</string>
+    <string name="string_img_message_nav" />
+
+    <!-- page title -->
+    <string name="txtAddBookPage">Add Book</string>
+    <string name="txtUpdateBookPage">Update Book</string>
+    <string name="txtBorrowBookPage">Borrow Book</string>
+    <string name="txtReadingTrackerPage">Reading Tracker</string>
+    <string name="txtUserAccountPage">User Account</string>
+    <string name="txtMessagePage">Message</string>
+    <string name="txtEditAccountPage">Edit User Information</string>
+    <string name="txtReadingHistory">Reading History</string>
+    <string name="txtCurrentLoan">Current Loan</string>
+    <string name="txtRequestHistory">Request History</string>
+    <string name="txtAddBookTrackerPage">Add A Book Tracker</string>
+    <string name="txtAdminMenu">Admin Menu</string>
+    <string name="txtAdminCreateUser">Create User Account</string>
+    <string name="txtAdminUserList">View User List</string>
+
+    <!-- bottom menu bar -->
+    <string name="menu_add">ADD</string>
+    <string name="menu_update">UPDATE</string>
+    <string name="menu_borrow">BORROW</string>
+    <string name="menu_tracker">TRACKER</string>
+    <string name="menu_user">USER</string>
+
+    <!-- Add book -->
+    <string name="txtAddBookTitle">Enter the book of the title</string>
+    <string name="txtUpdateBook">UPDATE BOOK</string>
+    <string name="txtAddBookISBN">Enter the ISBN-13 number</string>
+    <string name="txtAddBookAuthor">Enter the book of author</string>
+    <string name="txtAddBookPublisher">Enter the book of publisher</string>
+    <string name="txtAddBookYear">Enter the publication year</string>
+    <string name="btnBookSubmit">Add the book</string>
+    <string name="btnUpdateImage">Update the book image</string>
+    <string name="rdShareBook">Share Book</string>
+    <string name="rdGiveAwayBook">Give Away Book</string>
+    <string name="txtBookCategoryPrompt">Choose the book of category</string>
+    <string-array name="txtBookCategory">
+        <item>Fiction</item>
+        <item>NonFiction</item>
+    </string-array>
+    <string-array name="bookStatus">
+        <item>Share</item>
+        <item>Give-away</item>
+    </string-array>
+
+    <string-array name="bookStatusForUpdate">
+        <item>Share</item>
+        <item>Give-away</item>
+        <item>On-loan</item>
+    </string-array>
+    <!-- Borrow book -->
+    <string name="imgBookCover">image of book</string>
+    <string name="btnBorrow">Borrow</string>
+    <string name="btnSearch">Search</string>
+    <string name="hintSearch">Enter Preferred Pickup Location</string>
+    <string name="txtBookLocationPrompt">Choose location to pick up</string>
+
+    <!-- Borrow book -->
+    <string name="btnSendMessage">SUBMIT MESSAGE</string>
+    <string name="txtTitle">Book Information</string>
+    <string name="enterMsgHint">Enter you message here</string>
+    <string name="personalized">PERSONALIZED MSG</string>
+    <string name="cardviewtitle">Book Detail</string>
+    <string name="labelBDTitle">Title</string>
+    <string name="labelBDAuthor">Author</string>
+    <string name="labelBDCategory">Category</string>
+    <string name="labelBDPublisher">Publisher</string>
+    <string name="labelBDYear">Year</string>
+    <string name="labelBDOwner">OwnerID</string>
+    <string name="labelBDStatus">Status</string>
+    <string name="labelBDPrice">Price</string>
+
+    <!-- Edit account -->
+    <string name="editUserPassword">Enter your new password</string>
+    <string name="editUserName">Enter your full name</string>
+    <string name="editUserEmail">Enter your email</string>
+    <string name="editUserAddress">Enter your address</string>
+    <string name="editUserInterest">Enter your interest</string>
+    <string name="editUserAgePrompt">Enter your age</string>
+    <string-array name="editUserInterest">
+        <item>Fiction</item>
+        <item>NonFiction</item>
+    </string-array>
+    <string name="btnSubmit">Submit changes</string>
+    <string name="labelEditPassword">Your Password</string>
+    <string name="labelEditName">Your Full Name</string>
+    <string name="labelEditEmail">Your Email</string>
+    <string name="labelEditAddress">Your Address</string>
+    <string name="labelEditInterested">Your Interested Book</string>
+    <string name="labelEditAge">Your Current Age</string>
+    <string name="imgEditAccount">icon of editing user account</string>
+
+    <!-- user account page -->
+    <string name="labelTitleUserName">Name</string>
+    <string name="labelTitleUserAge">Age</string>
+    <string name="labelTitleUserEmail">Email</string>
+    <string name="labelTitleUserInterested">Interest</string>
+    <string name="labelTitleUserAddress">Address</string>
+    <string name="btnReadingHistory">Reading History</string>
+    <string name="btnCurrentLoan">Current Loan</string>
+    <string name="btnRequestHistory">Request History</string>
+    <string name="btnSignOut">Sign Out</string>
+
+    <!-- current loan -->
+    <string name="btnBorrowExtend">Extend</string>
+    <string name="btnBookReturned">Returned</string>
+
+    <!-- request history -->
+    <string name="txtRequestTypeG">Give Away</string>
+    <string name="txtRequestTypeB">Borrow</string>
+    <string name="imgRequestCheck">icon for accepting requests</string>
+    <string name="imgRequestCancel">icon for rejecting requests</string>
+
+    <!-- update book -->
+    <string name="btnDelete">Delete</string>
+    <string name="btnShare">Share</string>
+    <string name="btnGiveAway">Give Away</string>
+    <string name="btnEdit">Edit</string>
+
+    <!-- edit book -->
+    <string name="labelBookTitle">Book Title</string>
+    <string name="labelBookISBN">ISBN-13</string>
+    <string name="labelBookAuthor">Book Author</string>
+    <string name="labelBookPublisher">Book Publisher</string>
+    <string name="labelBookCategory">Book Category</string>
+    <string name="labelBookYear">The Publication Year</string>
+    <string name="txtBookPublisherOnly">Viking</string>
+    <string name="txtBookYear">2020</string>
+
+    <!-- reading tracker -->
+    <string name="btnAddTrackerBook">Add book</string>
+    <string name="EditReadingPage">Enter the page of reading</string>
+    <string name="btnSave">Save</string>
+    <string name="txtTrackerMessage1">Page.20</string>
+    <string name="labelBookPage">Reading page</string>
+    <string name="editBookPage">Enter reading page</string>
+    <string name="btnAddTracker">Add the book tracker</string>
+
+    <!-- message -->
+    <string name="imgArrow">image of arrow icon</string>
+    <string name="btnUpdateBook">UPDATE CHANGES</string>
+    <string name="btnReply">REPLY</string>
+    <string name="btnSubmitReply">SEND MESSAGE</string>
+    <string-array name="acceptOrDecline">
+        <item>N/A</item>
+        <item>Accept</item>
+        <item>Decline</item>
+    </string-array>
+    <string name="hintReply">Please write your personalized reply in here</string>
+    <string name="imgMessageTitle">image for message title</string>
+    <string name="txtMessageContent">Original Content: </string>
+
+    <!-- admin -->
+    <string name="btnCreateUser">Register</string>
+    <string name="btnUserList">VIEW USER LIST</string>
+    <string name="labelUserId">User Id</string>
+    <string name="EditUserId">Enter the user id</string>
+    <string name="labelUserPw">User Password</string>
+    <string name="EditUserPw">Enter the user password</string>
+    <string name="labelUserFName">User First Name</string>
+    <string name="EditUserFName">Enter the user first name</string>
+    <string name="labelUserLName">User Last Name</string>
+    <string name="EditUserLName">Enter the user last name</string>
+    <string name="labelUserAdr">User Address</string>
+    <string name="EditUserAdr">Enter the user address</string>
+    <string name="labelUserAge">User Age</string>
+    <string name="labelUserInterest">User Interest</string>
+    <string name="EditUserAge">Enter the user age</string>
+    <string-array name="userInterest">
+        <item>Fiction</item>
+        <item>NonFiction</item>
+    </string-array>
+    <string name="userInterestPrompt">User Interest</string>
+    <string name="imgUserIcon">image of user</string>
+    <string name="btnSendMes">Send Message</string>
+    <string name="bookLocation">Location</string>
+    <string name="labelTimeSpent">Time spent</string>
+    <string name="txtTimeSpent">Enter time spent on reading the book</string>
+    <string name="txtRTtitle">Enter information for the book you have read</string>
+    <string name="dateBorrowed">Date Borrowed</string>
+    <string name="returnDate">Return Date</string>
+    <string name="labelUserRenterPw">Re-enter password</string>
+    <string name="EditUserRePw">Re-enter password</string>
+
+    <string-array name="locations">
+        <item>All Locations</item>
+        <item>New Westminster</item>
+        <item>Vancouver</item>
+        <item>Burnaby</item>
+        <item>Brentwood</item>  <!--linked to dummy input. can be deleted later. -->
+        <item>Richmond</item>
+        <item>Coquitlam</item>
+    </string-array>
+
+    <string name="txtUpdateUser">Update user acoount</string>
+    <string name="txtMsgUser">Message user</string>
+    <string name="btnUpdateUser">Update User</string>
+    <string name="btnSelectUser">Update selected user</string>
+    <string name="txtAdminMsgHint">Write your message for the user here.</string>
+    <string name="searchTitle">Search Result</string>
+    <string name="pref">Select preferences</string>
+    <string name="pref1">Fiction</string>
+    <string name="pref2">Sci-Fi</string>
+    <string name="pref3">Crime</string>
+    <string name="pref4">Mystery</string>
+    <string name="pref5">Self Help</string>
+    <string name="pref6">Horror</string>
+    <string name="DeleteBook">Delete Book</string>
+    <string name="title_borrow_request">Title: Borrow Request</string>
+    <string name="borrow_request_has_been_sent_from">Borrow request has been sent from</string>
+    <string name="go">GO!</string>
+    <string name="please_select_the_preferences">Please select the preferences</string>
+    <string name="txtDelUser">DELETE USER</string>
+    <string name="bookId">Book Id</string>
+    <string name="hintBookId">Enter Book ID if Applicable</string>
+    <string name="lblTimeSpent">Time Spent</string>
+
+
+</resources>

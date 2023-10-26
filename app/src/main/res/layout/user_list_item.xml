@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/border_btn_white"
+    android:elevation="10dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgUserListIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/imgUserIcon"
+        android:src="@drawable/user_profile_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="textStart">
+
+        <TextView
+            android:id="@+id/txtUserListId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtUserListFName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtUserListLName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txtUserListAdr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnUserEdit"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/border_btn_white"
+                android:backgroundTint="@color/dark_blue"
+                android:padding="0dp"
+                android:text="@string/btnEdit"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/btnSendMessage"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/border_btn_white"
+                android:backgroundTint="@color/navy"
+                android:padding="0dp"
+                android:text="@string/btnSendMes"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+
+            <Button
+                android:id="@+id/btnUserDelete"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="85dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/border_btn_white"
+                android:backgroundTint="@color/gray"
+                android:padding="0dp"
+                android:text="@string/btnDelete"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

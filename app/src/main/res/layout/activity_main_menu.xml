@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="false"
+    android:layout_centerVertical="false"
+    android:background="@drawable/light_background"
+    android:orientation="vertical"
+    tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck">
+
+    <!-- Tool Bar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_light"
+        android:elevation="10dp">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_horizontal"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_home"
+            android:contentDescription="@string/imgMessageIcon"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+        <!-- page title -->
+        <TextView
+            android:id="@+id/txtToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!-- message icon -->
+        <ImageButton
+            android:id="@+id/btnMessageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_message_icon"
+            android:contentDescription="@string/imgMessageIcon"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- User profile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <!-- user icon -->
+        <ImageButton
+            android:id="@+id/btnUserIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/user_profile_img"
+            android:contentDescription="@string/imgUserProfile"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:text="@string/txtUserName"
+                android:textColor="#474846"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnUserArrow"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_arrow_right"
+            android:backgroundTint="@color/dark_gray"
+            android:contentDescription="@string/imgUserProfile"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+    <!-- search bar -->
+    <EditText
+        android:id="@+id/edTxtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_button_white"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:hint="@string/txtSearch"
+        android:inputType="text"
+        android:queryBackground="@android:color/transparent"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,TextContrastCheck"
+        tools:layout_marginRight="20dp" />
+
+    <!--The main button of add book and update book-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSearch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border_btn_white"
+            android:backgroundTint="@color/normal_gray"
+            android:elevation="20dp"
+            android:text="@string/txtSearch"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+<!--            <Button-->
+<!--                android:layout_width="170dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginStart="25dp"-->
+<!--                android:background="@drawable/border_btn_white"-->
+<!--                android:backgroundTint="@color/bright_blue"-->
+<!--                android:elevation="20dp"-->
+<!--                android:gravity="bottom"-->
+<!--                android:padding="22dp"-->
+<!--                android:text="@string/btnAdd"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+            <!-- add book -->
+            <ImageButton
+                android:id="@+id/btnAddBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/imgAddBook"
+                app:srcCompat="@drawable/add_book_button" />
+            <!-- update book -->
+            <ImageButton
+                android:id="@+id/btnUpdateBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/imgUpdateBook"
+                app:srcCompat="@drawable/update_book_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!-- borrow book -->
+            <ImageButton
+                android:id="@+id/btnBorrowBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/imgBorrowBook"
+                app:srcCompat="@drawable/borrow_book_button"
+                tools:ignore="ImageContrastCheck" />
+            <!-- reading tracker -->
+            <ImageButton
+                android:id="@+id/btnReadingTracker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/imgReadingTracker"
+                app:srcCompat="@drawable/reading_tracker_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--The message content-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/rounded_button_white"-->
+<!--        android:elevation="5dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:paddingBottom="5dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imgMessageIcon1"-->
+<!--            android:layout_width="42dp"-->
+<!--            android:layout_height="42dp"-->
+<!--            android:contentDescription="@string/imgMessageIcon"-->
+<!--            android:src="@drawable/message_gray_icon" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtMessage1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="55dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="@string/txtMessage1"-->
+<!--            android:textAlignment="viewStart"-->
+<!--            android:textColor="@color/dark_gray"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtMessageDate1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="55dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:text="@string/txtMessageDay1"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="12sp"-->
+<!--            tools:ignore="TextContrastCheck" />-->
+<!--    </LinearLayout>-->
+</LinearLayout>

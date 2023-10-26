@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- menu for the bottom menu -->
+    <item
+        android:id="@+id/menu_add_book"
+        android:icon="@drawable/icon_add_book"
+        android:title="@string/menu_add" />
+    <item
+        android:id="@+id/menu_update_book"
+        android:icon="@drawable/icon_menu_update"
+        android:title="@string/menu_update" />
+    <item
+        android:id="@+id/menu_borrow_book"
+        android:icon="@drawable/icon_menu_borrow"
+        android:title="@string/menu_borrow" />
+    <item
+        android:id="@+id/menu_reading_tracker"
+        android:icon="@drawable/icon_menu_tracker"
+        android:title="@string/menu_tracker" />
+    <item
+        android:id="@+id/menu_user_account"
+        android:icon="@drawable/icon_menu_user"
+        android:title="@string/menu_user" />
+</menu>
